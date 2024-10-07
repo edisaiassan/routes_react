@@ -10,7 +10,7 @@ export function getHeroesByPublisher(publisher: string): Heroe[] {
     return heroes.filter(hero => hero.publisher === publisher);
 }
 
-interface Heroe {
+export interface Heroe {
     id: string,
     superhero: string,
     publisher: string,

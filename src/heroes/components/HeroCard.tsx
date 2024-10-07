@@ -41,7 +41,7 @@ export const HeroCard: React.FC<{
 
         return (
             <Link className="col" to={`/hero/${id}`}>
-                <div className="card">
+                <div className="card p-3">
                     <div className="row no-gutters">
                         <div className="col-4">
                             <img src={heroImage} className="card-img" alt={title} />
